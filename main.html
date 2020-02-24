@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+    <script defer="true" type="text/javascript" src="js/main2.js" ></script>
+    <link href="css/main.css" rel="stylesheet" type="text/css"/>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+   
+</head>
+
+<body onKeyDown="doKeyDown(event)"> 
+    <div class="game" >
+        <h1>推箱子</h1>
+        <canvas id="mycanvas" class="canva" width="560" height="560"></canvas>
+        <div id="message"></div>
+        <input type="button" value="上一关" id="forw" onClick="nextorfor(-1)">
+        <input type="button" value="下一关" id="next" onClick="nextorfor(1)">
+        <input type="button" value="重玩" id="replay" onClick="nextorfor(0)">
+        <input type="button" value="自动寻路" id="ai">
+    </div>
+    
+   
+</body>
+</html>
