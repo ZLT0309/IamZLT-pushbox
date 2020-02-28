@@ -10,3 +10,5 @@ Web大作业时作品，代码略不规范、简洁
 欢迎访问个人博客 http://www.iamzlt.com/ 内含实现推箱子简单自动寻路的算法
 
 如果有相关问题，可在B站 https://space.bilibili.com/111685127 私信
+
+试玩网址： http://www.iamzlt.com/game/%e6%8e%a8%e7%ae%b1%e5%ad%90/
